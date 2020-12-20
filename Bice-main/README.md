@@ -14,7 +14,7 @@ Se solicita construir una solución Web que se pueda conectar a la URL https://w
 <img src="Img/app_grid.png" width="80%"  />
 Fig.1
 
-...Como se puede apreciar, en las siguientes imágenes, la solución presenta un Front End inicial para listar Indicadores (en esta caso la búsqueda desencadenó un total de 10 tipos de ítemes). Los valores de fecha en el origen se encuentran en formato Unix Time (valor númerico) transformado al valor de fecha local. Tal como se muestra en la primera imagen se despliega la lista de ítemes con una paginación de 5 líneas por lista, y por último un resultado de búsqueda específica en la figura 2 y 3 por tipo de indicador.
+...Como se puede apreciar, en las siguientes imágenes, la solución presenta un Front End inicial para listar Indicadores (en esta caso la búsqueda desencadenó un total de 10 tipos de ítemes). Los valores de fecha en el origen se encuentran en formato Unix Time (valor númerico) transformado al valor de fecha local. Tal como se muestra en la primera imagen se despliega la lista de ítemes con una paginación de 5 líneas por lista, y por último un resultado de búsqueda específica en la figura 3 y 4 por tipo de indicador.
 
 <img src="Img/app_grid_page.png" width="75%"  />
 Fig.2
@@ -29,7 +29,7 @@ Fig.4
 
 - Además, se detalla búsqueda errónea para ingreso de números y símbolos.
 
-<img src="Img/app_grid_especific_result_error_.png" width="75%"  />
+<img src="Img/app_grid_especific_result_error.png" width="75%"  />
 Fig.5
 
 # Aspectos destacados del esquema y la arquitectura de la solución técnica
