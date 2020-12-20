@@ -61,3 +61,30 @@ Fig.9
 
 <img src="Img/solution_test.png" />
 Fig.10
+
+# Despliegue solución Angular
+
+- Una vez compilado nuestro proyecto se debe ejecutar el siguiente comando Angular CLI en el diretorio raíz de este último: ..\ng build --prod
+
+<img src="Img/app_ng_serve_open.png" />
+Fig.11
+
+<img src="Img/app_ng_build_prod.png" />
+Fig.12
+
+- Luego de este proceso se genera una carpeta llamada 'dist' que contiene todos los archivos que debemos subir a nuestro servidor de desplieque (producción) internet:
+
+<img src="Img/app_ng_dist.png" />
+Fig.13
+
+# Despliegue solución API REST
+
+- Para nuestro proyecto API REST se debe ejecutar la opción de Publicación de VS Net Core para generar los archivos del Release (Kit de implementación) para subir en el servidor de de desplieque (producción) internet. 
+
+<img src="Img/api_publish1.png" />
+Fig.14
+
+<img src="Img/api_publish2.png" />
+Fig.15
+
+Luego de generar el Release se debe crear un Directorio Virtual en el IIS del servidor de despliegue con el Aplication Pool respectivo. Copiar el Kit de imlementación en el directorio recién creado en el IIS.
