@@ -59,7 +59,6 @@ Se solicita construir una solución Web que se pueda conectar a la URL https://w
 - Finalmente el resultado de un test de la API REST construida en .NET Core 3.1 MsTest tal como se aprecia en el árbol de solución.
 
 <img src="Img/solution_test.png" />
-<<<<<<< HEAD
 Fig.10
 
 # Despliegue solución Angular
@@ -87,7 +86,4 @@ Fig.14
 <img src="Img/api_publish2.png" />
 Fig.15
 
-Luego de generar el Release se debe crear un Directorio Virtual en el IIS del servidor de despliegue con el Aplication Pool respectivo. Copiar el Kit de imlementación en el directorio recién creado en el IIS.
-=======
-
->>>>>>> 47458d3dc09858543ea39c6e2189f815d24ca51b
+- Luego de generar el Release se debe crear un Directorio Virtual en el IIS del servidor de despliegue con el Aplication Pool respectivo. Copiar el Kit de imlementación en el directorio recién creado en el IIS.
