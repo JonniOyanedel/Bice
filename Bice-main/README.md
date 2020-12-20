@@ -11,14 +11,17 @@ Se solicita construir una solución Web que se pueda conectar a la URL https://w
 
 **Solución resultante:**
 
-<img src="Img/app_grid.png" width="80%"  />
+<img src="Img/app.png" width="80%"  />
 Fig.1
 
-...Como se puede apreciar, en las siguientes imágenes, la solución presenta un Front End inicial para listar Indicadores (en esta caso la búsqueda desencadenó un total de 10 tipos de ítemes). Los valores de fecha en el origen se encuentran en formato Unix Time (valor númerico) transformado al valor de fecha local. Tal como se muestra en la primera imagen se despliega la lista de ítemes con una paginación de 5 líneas por lista, y por último un resultado de búsqueda específica en la figura 3 y 4 por tipo de indicador.
+**Contexto:**
+
+- Como se puede apreciar, en las siguientes imágenes, la solución presenta un Front End inicial para listar Indicadores (en esta caso la búsqueda desencadenó un total de 10 tipos de ítemes). Los valores de fecha en el origen se encuentran en formato Unix Time (valor númerico) transformado al valor de fecha local. Tal como se muestra en la primera imagen se despliega la lista de ítemes con una paginación de 5 líneas por lista, y por último un resultado de búsqueda específica en la figura 3 y 4 por tipo de indicador.
 
 <img src="Img/app_grid_page.png" width="75%"  />
 Fig.2
 
+- Búsqueda:
 <img src="Img/app_grid_especific_result1.png" width="75%"  />
  Fig.3
 
@@ -48,6 +51,8 @@ Fig.7
 
 <img src="Img/api_approach.png" width="80%"  />
 Fig.8
+
+- Árbol de solución API REST:
 
 <img src="Img/solution_tree.png" />
 Fig.9
