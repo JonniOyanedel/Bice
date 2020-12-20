@@ -38,7 +38,7 @@ Se solicita construir una solución Web que se pueda conectar a la URL https://w
 
 - Primero tendremos tres partes principales acopladas como se mencionó al principio, implementadas y ejecutándose en una máquina local, e interactúan de acuerdo con la siguiente imagen:
 
-<img src="Img/solution_components.png" width="80%"  />
+<img src="Img/solution_components_arqt.png" width="80%"  />
 
 
 - En segundo lugar, con respecto al componente "frontal" (aplicación Angular 11), a continuación se muestra la estructura simple de los componentes:
