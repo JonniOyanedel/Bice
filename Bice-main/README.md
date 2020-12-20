@@ -3,7 +3,7 @@
 **Selected stack:**
   - Angular 11 / Bootstrap 
   - API Rest .Net Core 3.1 (C#)
-  - URL servicio indicadores económicos https://www.indecon.online
+  - URL servicio indicadores económicos
   
 # Visión General
 
@@ -11,15 +11,19 @@ Se solicita construir una solución Web que se pueda conectar a la URL https://w
 
 **Solución resultante:**
 
-<img src="Img/app_grid.jpg" width="80%"  />
+<img src="Img/app.png" width="80%"  />
 
+<img src="Img/app_grid.png" width="80%"  />
 
-...Como se puede apreciar, en las siguientes imágenes, la solución presenta un Front End inicial para listar Indicadores (en esta caso la búsqueda desencadenó un total de 10 tipos de ítemes). Los valores de fecha en el origen se encuentran en formato Unix Time (valor númerico) transformado al valor de fecha local. Tal como se muestra en la primera imagen se despliega la lista de ítemes con una paginación de 5 líneas por lista, y por último un resultado de búsqueda específica en la segunda imagen.
+...Como se puede apreciar, en las siguientes imágenes, la solución presenta un Front End inicial para listar Indicadores (en esta caso la búsqueda desencadenó un total de 10 tipos de ítemes). Los valores de fecha en el origen se encuentran en formato Unix Time (valor númerico) transformado al valor de fecha local. Tal como se muestra en la primera imagen se despliega la lista de ítemes con una paginación de 5 líneas por lista, y por último un resultado de búsqueda específica en la segunda y tercera imagen por tipo de inidcador.
 
-<img src="Img/app_grid_page.jpg" width="75%"  /> <img src="Img/app_grid_especific_result.jpg" width="75%"  />
+<img src="Img/app_grid_page.png" width="75%"  /> 
+<img src="Img/app_grid_especific_result1.png" width="75%"  /> 
+<img src="Img/app_grid_especific_result2.png" width="75%"  />
 
 **NOTA: los valores de indicadores no son rodonadeados, se muestran con tipo de unidad respectivo.**
 
+- Además, se detalla búsqueda errónea para ingreso de números y símbolos.
 
 # Aspectos destacados del esquema y la arquitectura de la solución técnica
 
