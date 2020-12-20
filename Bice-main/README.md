@@ -11,8 +11,6 @@ Se solicita construir una solución Web que se pueda conectar a la URL https://w
 
 **Solución resultante:**
 
-<img src="Img/app.png" width="80%"  />
-
 <img src="Img/app_grid.png" width="80%"  />
 
 ...Como se puede apreciar, en las siguientes imágenes, la solución presenta un Front End inicial para listar Indicadores (en esta caso la búsqueda desencadenó un total de 10 tipos de ítemes). Los valores de fecha en el origen se encuentran en formato Unix Time (valor númerico) transformado al valor de fecha local. Tal como se muestra en la primera imagen se despliega la lista de ítemes con una paginación de 5 líneas por lista, y por último un resultado de búsqueda específica en la segunda y tercera imagen por tipo de inidcador.
@@ -29,7 +27,7 @@ Se solicita construir una solución Web que se pueda conectar a la URL https://w
 
 - Primero tendremos tres partes principales acopladas como se mencionó al principio, implementadas y ejecutándose en una máquina local, e interactúan de acuerdo con la siguiente imagen::
 
-<img src="Img/solution_components.jpg" width="80%"  />
+<img src="Img/solution_components.png" width="80%"  />
 
 - En segundo lugar, con respecto al componente "frontal" (aplicación Angular 11), a continuación se muestra la estructura simple de los componentes:
 
